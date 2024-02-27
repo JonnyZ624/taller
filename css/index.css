@@ -1,0 +1,124 @@
+
+*{
+    background-color: ;
+    margin: 0;
+    padding: 0;
+    border: 0 ;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.Encabezado {
+    background-color: lightskyblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sixtyfour', sans-serif;
+    
+  }
+  .Encabezado img {
+    height: 70px;
+    margin-top: -8px; 
+  }
+
+.contenedorPrincipal{
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.caja{
+    background-color: cadetblue;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+.caja1{
+    grid-area: 2/1/2/3;
+        
+}
+.caja2{
+
+    grid-area: 1/1/1/5;
+}
+
+.caja3{
+    grid-area: 2/3/2/5;
+    
+}
+
+footer{
+    background-color: cadetblue;
+    margin: 15px;
+    padding: 10px;
+    width: 99%;
+    height: 45px;
+    border-radius: 50px;
+    box-shadow: 100px 10px 5px rgb(red, green, rgb(32, 32, 80));
+    font-family: 'Playfair Display', serif;
+
+}
+
+h2{
+    background-color: cadetblue;
+    font-family: 'Protest Revolution', sans-serif;
+}
+p{
+    background-color: cadetblue;
+    font-family: 'Playfair Display', serif;
+
+}
+nav{
+    background-color: dodgerblue;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+.card-text{
+    background-color: aliceblue;
+}
+
+#carouselOtro img {
+    width: 100%;
+    height: 350px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Ajusta para cubrir el contenedor manteniendo la proporción */
+  }
+
+  #carouselOtro h5 {
+    margin-top: 10px;
+  }
+
+ 
+  #carouselProductos .card-img-top {
+    width: 100%;
+    height: 250px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Ajusta para cubrir el contenedor manteniendo la proporción */
+  }
+
+  h5{
+    font-family: 'Playfair Display', serif;
+
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .contenedorPrincipal {
+    flex: 1;
+  }
+
+  footer {
+    background-color: cadetblue; /* Puedes cambiar este color según tu diseño */
+    padding: 10px;
+    text-align: center;
+    width: 99%;
+    border-radius: 15px;
+  }
+
+

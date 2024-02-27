@@ -1,0 +1,27 @@
+*{
+    background-color: ;
+    margin: 0;
+    padding: 0;
+    border: 0 ;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.custom-sidebar {
+    background-color: aliceblue; /* Cambia esto al color que desees */
+    color: black; /* Cambia esto al color del texto que desees */
+    padding: 15px;
+    border-radius: 20px;
+    /* Otros estilos según sea necesario */
+  }
+  
+  .csd {
+    background-color: aliceblue; /* Cambia esto al color que desees */
+    color: black; /* Cambia esto al color del texto que desees */
+    padding: 15px;
+    border-radius: 0px;
+    /* Otros estilos según sea necesario */
+  }
+  
+
+  
