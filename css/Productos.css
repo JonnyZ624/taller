@@ -1,22 +1,87 @@
-*{
-    background-color: ;
-    margin: 0;
-    padding: 0;
-    border: 0 ;
-    font-size: 100%;
-    vertical-align: baseline;
+* {
+  background-color: ;
+  margin: 0;
+  padding: 0;
+  border: 0 ;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 .custom-sidebar {
-    background-color: aliceblue; 
-    color: black; 
-    padding: 15px;
-    border-radius: 20px;
-  
-  .csd {
-    background-color: aliceblue; 
-    color: black; 
-    padding: 15px;
-    border-radius: 0px;
-    
-  }
+  background-color: aliceblue; 
+  color: black; 
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.csd {
+  background-color: aliceblue; 
+  color: black; 
+  padding: 15px;
+  border-radius: 0px;
+}
+
+#carouselProductos1 .carousel-control-prev-icon,
+#carouselProductos1 .carousel-control-next-icon {
+  background-color: #000000; 
+  border-radius: 50%; 
+  width: 30px; 
+  height: 30px; 
+}
+
+#carouselProductos1 .carousel-control-prev,
+#carouselProductos1 .carousel-control-next {
+  width: 5%; 
+}
+
+#carouselProductos .carousel-control-prev-icon,
+#carouselProductos .carousel-control-next-icon {
+  background-color: #000000; 
+  border-radius: 50%; 
+  width: 30px; 
+  height: 30px; 
+}
+
+#carouselProductos .carousel-control-prev,
+#carouselProductos .carousel-control-next {
+  width: 5%; 
+}
+
+#carouselProductos3 .carousel-control-prev-icon,
+#carouselProductos3 .carousel-control-next-icon {
+  background-color: #000000; 
+  border-radius: 50%; 
+  width: 30px; 
+  height: 30px; 
+}
+
+#carouselProductos3 .carousel-control-prev,
+#carouselProductos3 .carousel-control-next {
+  width: 5%; 
+}
+
+#carouselProductos4 .carousel-control-prev-icon,
+#carouselProductos4 .carousel-control-next-icon {
+  background-color: #000000; 
+  border-radius: 50%; 
+  width: 30px; 
+  height: 30px; 
+}
+
+#carouselProductos4 .carousel-control-prev,
+#carouselProductos4 .carousel-control-next {
+  width: 5%; 
+}
+
+#carouselProductos5 .carousel-control-prev-icon,
+#carouselProductos5 .carousel-control-next-icon {
+  background-color: #000000; 
+  border-radius: 50%; 
+  width: 30px; 
+  height: 30px; 
+}
+
+#carouselProductos5 .carousel-control-prev,
+#carouselProductos5 .carousel-control-next {
+  width: 5%; 
+}
