@@ -14,12 +14,18 @@
     align-items: center;
     justify-content: center;
     font-family: 'Sixtyfour', sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
     
   }
   .Encabezado img {
     height: 70px;
     margin-top: -8px; 
   }
+  
+  .Encabezado:hover {
+    transform: scale(1.1); /* Cambia el valor según sea necesario */
+}
 
 .contenedorPrincipal{
     
