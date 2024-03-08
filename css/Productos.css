@@ -1,5 +1,5 @@
 * {
-  background-color: ;
+  
   margin: 0;
   padding: 0;
   border: 0 ;
@@ -84,4 +84,9 @@
 #carouselProductos5 .carousel-control-prev,
 #carouselProductos5 .carousel-control-next {
   width: 5%; 
+}
+
+.img-grande {
+  width: 100%;
+  height: auto;
 }
