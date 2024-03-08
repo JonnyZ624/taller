@@ -5,9 +5,9 @@
     border: 0 ;
     font-size: 100%;
     vertical-align: baseline;
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -16,21 +16,21 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background-image: url('imagenes/descarga.png'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta real de tu imagen */
+    background-image: url('logo_electro.png'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta real de tu imagen */
     background-size: contain; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
   }
-
+  
   h1 {
     text-align: justify;
     margin-bottom: 20px;
   }
-
+  
   .navbar {
     width: 100%;
   }
-
+  
   .container {
     background-color: #fff;
     padding: 20px;
@@ -38,24 +38,24 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 600px; /* Ancho máximo para el formulario */
   }
-
+  
   .container form {
     width: 100%;
   }
-
+  
   label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
   }
-
+  
   input {
     width: 100%;
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
   }
-
+  
   button {
     background-color: blue;
     color: #fff;
@@ -65,13 +65,14 @@ body {
     cursor: pointer;
     width: 100%;
   }
-
+  
   .btn-registro {
     transition: transform 0.3s ease-in-out;
-}
-
-.btn-registro:hover {
+  }
+  
+  .btn-registro:hover {
     transform: scale(1.1); /* Cambia el valor según sea necesario para el tamaño más grande */
-}
-
+  }
+  
+  
   
