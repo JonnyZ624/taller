@@ -1,5 +1,4 @@
 function validarFormulario() {
-
     let nombre = document.getElementById('nombre').value;
     let apellido = document.getElementById('apellido').value;
     let edad = document.getElementById('edad').value;
@@ -41,8 +40,6 @@ function validarFormulario() {
           btnRegistro.style.transform = ''; 
       });
   });
-
-
     alert('¡Registro exitoso!');
     
      }
