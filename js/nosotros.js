@@ -2,17 +2,17 @@ document.addEventListener('DOMContentLoaded', function() {
     var enlaceInicio = document.getElementById('enlaceInicio');
 
     enlaceInicio.addEventListener('mouseover', function() {
-        enlaceInicio.style.color = 'darkblue'; // Cambia el color cuando el mouse está sobre el enlace
+        enlaceInicio.style.color = 'darkblue'; 
     });
 
     enlaceInicio.addEventListener('mouseout', function() {
-        enlaceInicio.style.color = ''; // Restaura el color original al salir del enlace
+        enlaceInicio.style.color = ''; 
     });
   });
   function aumentarTamanio(elemento) {
-    elemento.style.fontSize = '1.3em'; // Puedes ajustar el tamaño según tus preferencias
+    elemento.style.fontSize = '1.3em'; 
   }
 
   function restaurarTamanio(elemento) {
-    elemento.style.fontSize = ''; // Restaura el tamaño original
+    elemento.style.fontSize = ''; 
   }
